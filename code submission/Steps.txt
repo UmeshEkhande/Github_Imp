@@ -1,0 +1,33 @@
+Git Submission conflict resolving steps 
+
+1. Go to local main  
+
+$ git checkout main 
+
+2. Pull all the latest changes 
+
+$ git pull origin main 
+
+3. Switch to dev local branch 
+
+$ git checkout dev 
+
+4. Stash the changes made in dev branch 
+
+$ git stash 
+
+5. Merge the main with dev 
+
+$ git merge main 
+
+6. pop the stash 
+
+$ git stash pop 
+
+At this point, some conflict will occur (if present) and a conflict resolving window will be prompt  
+
+Resolve the conflict.  
+
+7. Submit the changes  
+
+( Follow git push steps )  
